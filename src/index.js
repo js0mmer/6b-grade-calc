@@ -115,12 +115,12 @@ class App extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <QuizRow updateScore={this.updateScore} number={1} maxPoints={19} averagePoints={14.97} curveFactor={1} />
-            <QuizRow updateScore={this.updateScore} number={2} maxPoints={9} averagePoints={4.88} curveFactor={0.5} />
-            <QuizRow updateScore={this.updateScore} number={3} maxPoints={7} averagePoints={2.99} curveFactor={0.4} />
-            <QuizRow updateScore={this.updateScore} number={4} maxPoints={11} averagePoints={5.43} curveFactor={0.5} />
-            <QuizRow updateScore={this.updateScore} number={5} maxPoints={11} />
-            <QuizRow updateScore={this.updateScore} number={6} maxPoints={7} />
+            <QuizRow updateScore={this.updateScore} number={1} maxPoints={19} averagePoints={15.02} curveFactor={1} />
+            <QuizRow updateScore={this.updateScore} number={2} maxPoints={9} averagePoints={4.9} curveFactor={0.5} />
+            <QuizRow updateScore={this.updateScore} number={3} maxPoints={7} averagePoints={3} curveFactor={0.4} />
+            <QuizRow updateScore={this.updateScore} number={4} maxPoints={11} averagePoints={5.48} curveFactor={0.5} />
+            <QuizRow updateScore={this.updateScore} number={5} maxPoints={11} averagePoints={8.4} />
+            <QuizRow updateScore={this.updateScore} number={6} maxPoints={7} averagePoints={5.67} curveFactor={0.75} />
             <QuizRow updateScore={this.updateScore} number={7} maxPoints={6} />
             <QuizRow updateScore={this.updateScore} number={8} maxPoints={9} />
             <QuizRow updateScore={this.updateScore} number={9} maxPoints={13} />
