@@ -85,7 +85,7 @@ class App extends React.Component {
     let totalCurved = 0;
     let numQuizzes = 0;
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 1; i < 11; i++) {
       if (i in this.state.scores[type]) {
         totalRaw += this.state.scores[type][i]['raw'];
         totalCurved += this.state.scores[type][i]['curved'];
@@ -123,7 +123,7 @@ class App extends React.Component {
             <QuizRow updateScore={this.updateScore} number={6} maxPoints={7} averagePoints={5.67} />
             <QuizRow updateScore={this.updateScore} number={7} maxPoints={6} averagePoints={4} curveFactor={0.75} />
             <QuizRow updateScore={this.updateScore} number={8} maxPoints={9} />
-            <QuizRow updateScore={this.updateScore} number={9} maxPoints={13} />
+            <QuizRow updateScore={this.updateScore} number={9} maxPoints={11} />
             <QuizRow updateScore={this.updateScore} number={10} maxPoints={10} />
             <tr>
               <td>Total</td>
